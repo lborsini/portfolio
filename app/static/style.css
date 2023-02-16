@@ -24,8 +24,8 @@ html body header {
     z-index: 2;
     display: flex;
     justify-content: space-between;
-    background-color: #f7f7f7;
-    box-shadow: 3px 0 5px #aaa;
+    background-color: #efefef;
+    box-shadow: 3px 3px 5px #4a4a4a;
     padding: 15px 30px;
 }
 
@@ -92,9 +92,18 @@ a.btn {
     color: #fff;
 }
 
+.btn:hover{
+    padding: 20px 40px;
+}
+
+a.btn:hover{
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
 .card {
     background-color: #fff;
-    box-shadow: 0 1px 2px #ddd;
+    box-shadow: 0 2px 3px #00e870;
     border: solid 1px #ddd;
     border-radius: 5px;
     padding: 20px 30px;
@@ -102,6 +111,15 @@ a.btn {
 
 .third {
     width: 360px;
+    margin: 20px;
+}
+
+.box {
+    background-color: #efefef;
+    box-shadow: 0 2px 3px #4a4a4a;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 20px 30px;
     margin: 20px;
 }
 
@@ -113,6 +131,7 @@ a.btn {
     margin-bottom: 15px;
     border-radius: 5px;
     width: calc(100% - 20px);
+    box-shadow: 0 1px 2px #00e870;
 }
 
 .contact-form textarea {
@@ -124,6 +143,7 @@ a.btn {
     border-radius: 5px;
     width: calc(100% - 20px);
     resize: none;
+    box-shadow: 0 1px 2px #00e870;
 }
 
 .center {
@@ -139,35 +159,33 @@ a.btn {
     display: flex;
     flex-direction: row;
 }
+
 .full-width {
     width: 100%;
 }
 
 .footer {
-    padding: 80px 0 0 0;
+    padding: 50px 0 0 0;
     background-color: #333;
     color: #fff;
 }
 
 .social-link {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .social-link a {
     margin: 0 10px;
 }
 
-
-
 .social {
-    padding: 10px;
+    padding: 5px;
 }
 
 .made-with {
     padding: 0 30px;
     color: #555;
-
 }
 
 .bg {
@@ -176,6 +194,12 @@ a.btn {
 
 .orange {
     color: #f84f07;
+    transition: 0.3ms;
+    
+}
+
+.orange:hover {
+    font-size: 18px;
 }
 
 .padded {
@@ -185,3 +209,20 @@ a.btn {
 .vert-pad {
     padding: 20px 0;
 }
+
+.letter {
+    width: 100%;
+}
+
+.right {
+    width: 600px;
+}
+
+.left {
+    width: 600px;
+}
+
+.tech {
+    font-weight: 900;
+}
+

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt>;
 <title>{% block title %}{% endblock %} - Portfolio</title>
 <link rel="shortcut icon" href="static\logo.ico" />
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
@@ -15,8 +16,9 @@
 
         <nav>
             <ul>
-                <li><a href="{{ url_for('portfolio.index') }}">Inicio</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="{{ url_for('portfolio.index') }}">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contacto">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,21 +28,23 @@
             <div class="row">
                 <h3>Contact me</h3>
             </div>
-            <div class="center full-width">
-                <div class="row">
-                    <p>O tambien puedes seguirme en redes Sociales!!!!</p>
-                </div>
+        </div>
+        <div class="center full-width">
+            <div class="row">
+                <p>Or you  can follow me in social networks!</p>
             </div>
-            <div class="center full-width social-link">
-                <div class="row">
+        </div>
+        <div class="center full-width social-link">
+            <div class="row">
                     <a class="social" href="https://www.linkedin.com/in/leandro-borsini-9209bb20b/" target="_blank"><img width="30" src="{{ url_for('static', filename='linkedin.png') }}" alt=""></a>
-                </div>
+                    <a class="social" href="https://github.com/lborsini" target="_blank"><img width="30" src="{{ url_for('static', filename='github.png') }}" alt=""></a>
             </div>
         </div>
         <div class="made-with">
             <div class="row">
-                <p>Hecho por LBorsiniSoftware </p>
+                <p>Made by LBorsiniSoftware </p>
             </div>
         </div>
     </div>
 </body>
+
