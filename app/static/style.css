@@ -165,14 +165,14 @@ a.btn:hover{
 }
 
 .footer {
-    padding: 50px 0 0 0;
+    padding: 80px 0 0 0;
     background-color: #333;
     color: #fff;
 }
 
 .social-link {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .social-link a {
@@ -180,7 +180,7 @@ a.btn:hover{
 }
 
 .social {
-    padding: 5px;
+    padding: 10px;
 }
 
 .made-with {
